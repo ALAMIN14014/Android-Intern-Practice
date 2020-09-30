@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mysqlitedatabaseinsertingdata.MainActivity">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Name : "
+    android:textSize="20sp"
+    android:textStyle="bold"
+    />
+    
+    <EditText
+        android:id="@+id/nameedittextid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/ageedittextid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/genderedittextid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/idedittextid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Button
+    android:id="@+id/addbuttonid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Add Data"
+    style="@style/Widget.AppCompat.Button.Colored"
+/>
+
+    <Button
+        android:id="@+id/showbuttonid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Data"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+    <Button
+        android:id="@+id/updatebuttonid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+
+    <Button
+        android:id="@+id/deletebuttonid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+
+
+</LinearLayout>

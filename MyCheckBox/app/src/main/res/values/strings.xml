@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyCheckBox</string>
+    <string name="title_text">"What do you want to buy"</string>
+</resources>

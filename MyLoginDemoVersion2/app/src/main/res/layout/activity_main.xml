@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background"
+    >
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="150dp"
+    android:src="@drawable/era"
+    android:paddingTop="70dp"
+    android:layout_marginTop="100dp"
+
+
+    />
+    <EditText
+        android:id="@+id/edittext_usernameid"
+        android:layout_width="190dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="40dp"
+        android:hint="@string/username"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/username"
+        />
+
+
+    <EditText
+        android:id="@+id/edittextpasswordid"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:hint="@string/password"
+        android:paddingLeft="15dp"
+        android:background="#ffffff"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/password"
+        android:inputType="textPassword"
+        />
+
+
+
+    <Button
+        android:id="@+id/button_loginid"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/login"
+        android:background="#3297C5"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+
+        >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:text="@string/not_registered"
+    android:textColor="#ffffff"
+    />
+        <TextView
+            android:id="@+id/textview_registerid"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/register"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

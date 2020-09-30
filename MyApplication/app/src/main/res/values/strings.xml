@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="name_text">"I'm alamin"</string>
+    <string name="age_text">"Im 25 years old"</string>
+</resources>

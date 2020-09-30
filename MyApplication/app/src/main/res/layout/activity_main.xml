@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:orientation="vertical"
+
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/NameTextViewId"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:text="I'm Al amin"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textAllCaps="true"-->
+<!--        android:textColor="@color/colorPrimary"-->
+<!--        android:textColorHighlight="@color/colorPrimaryDark"-->
+<!--        android:textIsSelectable="true"-->
+<!--        android:textStyle="bold"-->
+<!---->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/AgeTextViewId"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="I'm 25 years old"-->
+<!---->
+<!--        />-->
+<!---->
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Login"-->
+<!--        />-->
+<!--    <ImageButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/login"-->
+<!--    />-->
+
+<!--how to create button-->
+<!--    <Button-->
+<!--        android:id="@+id/loginbuttonid"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Login"-->
+<!--      />-->
+<!--end-->
+
+<!--    how to set image in button-->
+<!--    <ImageButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/login"-->
+<!---->
+<!--        />-->
+
+<!--end-->
+
+<!--button text and image both-->
+<!--<Button-->
+<!--    android:id="@+id/loginbuttonid"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="Login"-->
+<!--    android:drawableRight="@drawable/login"-->
+<!--    />-->
+<!--end-->
+
+
+        <!--multiple button with listener-->
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+>
+        <Button
+            android:id="@+id/loginbuttonid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:drawableRight="@drawable/login"
+            />
+        <Button
+            android:id="@+id/logoutbuttonid"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:drawableRight="@drawable/logout"
+            />
+
+
+</LinearLayout>
+
+<!--end-->
+
+    <!--button text and image both-->
+<!--       and listener-->
+        <TextView
+        android:id="@+id/textviewid"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+    />
+<!-- end-->
+
+
+    </LinearLayout>
